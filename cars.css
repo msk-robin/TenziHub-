@@ -1,5 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    background-color: F9F5F6;
+}
 
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+li a{
+    text-decoration: none;
+}
+li {
+    list-style: none;
 }
