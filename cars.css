@@ -6,14 +6,30 @@
     background-color: F9F5F6;
 }
 
-.navbar{
-    display: flex;
-    flex-direction: row;
+nav{
+    margin-top: 2%;
+}
+
+ul{
+    display:flex;
+    justify-content:space-evenly;
 }
 
 li a{
     text-decoration: none;
+    color: white;
+
 }
 li {
-    list-style: none;
+    list-style-type: none;
+    width: 100%;
+    background-color: rgba(37, 31, 76, 0.873);
+    padding: 30px;
+    margin: 5px;
+    text-align: center;
+}
+.logo{
+    font-size: 36px;
+    color: black;
+    font-weight: 500px;
 }
